@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru" class="desktop portrait">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Корзина</title>
+<meta name="description" content="Корзина">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="favicon.ico" rel="icon">
+<link href="bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="owl.carousel.css" rel="stylesheet">
+<link href="stylesheet.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="bootstrap.min.js" type="text/javascript"></script>
+<script src="bootstrap-tabcollapse.js" type="text/javascript"></script>
+<script src="common.js" type="text/javascript"></script>
+<script src="owl.carousel.min.js" type="text/javascript"></script>
+<script src="device.min.js" type="text/javascript"></script>
+<script src="cloud-zoom.js"></script>
+<script src="jquery.bxslider.min.js"></script>
+</head>
+<body class="common-home">
+<div id="page">
+<header>
+<div class="container">
+<div class="box-currency">
+<button type="button" id="button-cart" data-loading-text="Подождите..." class="btn btn-add" style="cursor:pointer;" onclick="document.getElementById('popup_1').style.display='block';"><span>Обратный звонок</span></button>
+<div id="popup_1" style="display:none;">
+<span class="popup_1_close" onclick="document.getElementById('popup_1').style.display='none';"></span>
+<div class="tab-content pop-content">
+<div id="tab-comments" class="tab-pane">
+<span class="popup_1_close_x material-icons" onclick="document.getElementById('popup_1').style.display='none';">highlight_off</span>
+<div class="form-group">
+<div id="comments" class="blog-comment-info">
+<h2 id="review-title">Наш менеджер свяжется с Вами</h2>
+<div class="comment-left">
+<div class="form-group">
+<input type="text" name="name" value="" placeholder="Ваше имя" id="comment-name" class="form-control"/>
+</div>
+<div class="form-group">
+<input type="tel" name="phone" value="" placeholder="Ваш телефон" id="comment-phone" class="form-control"/>
+</div>
+</div>
+<br/>
+<div class="text-right">
+<a id="button-comment" class="btn btn-info">
+<span>Заказать звонок</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="search" class="search">
+<input type="text" name="search" value="" placeholder="">
+<button type="button" class="button-search"><i class="material-icons md-24">search</i></button>
+</div>
+<div id="logo" class="logo">
+<a class="logo_table" href="#"><img src="logo.png" title="SaynaVlad" alt="SaynaVlad" class="img-responsive"><div class="logo_div"><span class="logo_span">Печи, каменки, камины</span><br>оборудование для саун и бань</div></a>
+</div>
+ 
+<div class="header-bottom">
+<ul class="list-unstyled top-menu col-sm-offset-3">
+<li class="home-button"><a href="#">Главная</a></li>
+<li class="contact-button"><a href="#">Распродажа</a></li>
+<li class="blog-button"><a href="#">Контакты</a></li>
+</ul>
+<div class="box-cart">
+<div id="cart" class="cart toggle-wrap">
+<button type="button" data-loading-text="Подождите..." class="toggle">
+<i class="material-icons">shopping_cart</i>
+<span id="cart-total" class="cart-total">0 товар(ов) - 0 руб.</span>
+<span id="cart-total2" class="cart-total2">Пусто</span> <i class="material-design drop25"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div id="menu-gadget" class="menu-gadget">
+<ul class="menu">
+<li>
+<a href="#">Дровяные печи для бани</a>
+<ul>
+<li>
+<a href="#">Берёзка</a>
+</li>
+<li>
+<a href="#">Бренеран</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">Газовые печи для бани</a>
+<ul>
+<li>
+<a href="#">Ермак</a>
+</li>
+<li>
+<a href="#">Бренеран</a>
+</li>
+<li>
+<a href="#" class="parent">Термофор</a><ul>
+<li>
+<a href="#">Уренгой</a>
+</li>
+<li>
+<a href="#">Таймыр</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">Электрические каменки для сауны</a>
+</li>
+<li>
+<a href="#">Переносные печи</a>
+</li>
+</ul>
+</div>
+</div>
+</header>
+<div class="header_modules"></div>
+<div id="container">
+<div class="container">
+<div class="row"><aside id="column-left" class="col-sm-3 ">
+<div class="box category">
+<div class="box-heading"><h3>Печи</h3></div>
+<div class="box-content">
+<div class="box-category">
+<ul class="menu">
+	<li class="children">
+	<a href="#">Дровяные печи для бани</a>
+	<i class="material-icons">keyboard_arrow_right</i>
+		<ul>
+		<li><a href="#">Берёзка</a></li>
+		<li><a href="#">Бренеран</a></li>
+		</ul>
+	</li>
+	<li class="children">
+	<a href="#">Газовые печи для бани</a>
+	<i class="material-icons">keyboard_arrow_right</i>
+	<ul>
+		<li><a href="#">Ермак</a></li>
+		<li><a href="#">Теплодар</a></li>
+		<li class="children">
+		<a href="#" class="parent">Термофор</a><i class="material-icons">keyboard_arrow_right</i>
+			<ul>
+			<li><a href="#">Уренгой</a></li>
+			<li><a href="#">Таймыр</a></li>
+			</ul>
+		</li>
+	</ul>
+</li>
+<li>
+<a href="#">Электрические каменки для сауны</a>
+</li>
+<li>
+<a href="#">Переносные печи</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<script>
+jQuery(document).ready(function(){
+jQuery('.box-category .menu').find('li > ul').before('<i class="material-design-keyboard53"></i>').parent().addClass('children'); 
+});
+</script>
+</aside>
+<div id="content" class="col-sm-9">
+<ul class="breadcrumb">
+<li><a href="#"><i class="material-icons">home</i></a></li>
+<li><a href="#">О нас</a></li>
+</ul>
+<h1>Оплата товара и его доставка</h1>
+<div class="simple_content">
+<h2>Оплата товара </h2>
+<p>Оплатить покупку в наших магазинах можно несколькими способами:</p>
+<p><strong>1.</strong> В кассе магазина.</p>
+<p><strong>2.</strong> Наличными курьеру при доставке товара по городу Владимир и Владимирской области (только для физических лиц).</p>
+<p>Если Вы выбрали оплату наличными курьеру при доставке товара, то расплатиться за покупку Вы сможете непосредственно с курьером нашего магазина в момент доставки заказа. Взамен Вы получите кассовый чек, накладную и документы производителя (гарантийный талон или паспорт изделия). Оплата принимается только в российских рублях при доставке товара и передаче всех необходимых документов.</p>
+<p><strong>3.</strong> В безналичной форме на расчетный счет магазина.</p>
+<p>В этом случае оплата заказа производится согласно выписанному счету, который Вы можете получить по указанному Вами номеру факса, или адресу электронной почты. Оплата счета должна быть произведена в течении 3-х банковских дней. Если в течении этого времени вы не направили средства в оплату счета, он считается недействительным. После оплаты заказа обязательно сообщите нам о факте оплаты. В сообщении укажите: дату, сумму оплаты, номер заказа, Ф.И.О. и номер платежного поручения.</p>
+<h2>Доставка товара</h2>
+<p>1. Самовывоз со склада магазина.</p>
+<p>2. Доставка товара </p>
+<h3>В пределах Владимирской области</h3>
+<p>Доставка товара (в пределах г. Владимир) составляет – 350 руб.</p>
+<p>Доставка товара (в пределах Владимирской области) рассчитывается по тарифу - 13 руб/км (маршрут оплачивается туда-обратно).</p>
+<p>Доставка осуществляется по рабочим дням с 09:00 до 18:00. (Обратите внимание, что по договоренности возможна доставка в более удобное для Вас время).</p>
+<p>При отказе от покупки, покупатель оплачивает только стоимость доставки (если была заказана услуга «Доставка товара курьером»).</p>
+<h3>в другие регионы России</h3>
+<p>Доставка товара в любой регион России осуществляется с помощью:</p>
+<ul>
+  <li>ООО «<strong>Деловые линии»</strong> (рассчитать примерную стоимость доставки);</li>
+  <li>Транспортно-экспедиционного предприятия <strong>«Автотрейдинг»</strong> (рассчитать примерную);</li>
+  <li>Службы Доставки Грузов <strong>«ЖелДорЭкспедиция»</strong> (рассчитать примерную стоимость доставки на <a href="#">сайте компании</a>);</li>
+  <li>другой транспортной компанией по договоренности с клиентом.</li>
+</ul>
+<p><strong>Точную стоимость доставки</strong>, с учетом габаритов посылки, рассчитает менеджер при выставлении счета. Доставка до транспортной компании - БЕСПЛАТНО. (После фактического поступления оплаты на наш расчётный счет, заказ будет отправлен в транспортную компанию течение 1-3 рабочих дней. Мы сообщим Вам по электронной почте или телефону о дате отправки заказа и его трекинг номер для отслеживания местонахождения.)</p>
+<p>Доставка в данном случае производится по 100% предоплате. Все необходимые документы на товар передаются с транспортной компанией, либо Вашему представителю.</p>
+<h2>Сроки и условия доставки </h2>
+<p>1. Если заказанный Вами товар есть на складе компании, то срок доставки товара составляет 1-3 рабочих дня с момента подачи заявки.</p>
+<p>2. Если товар отсутствует на складе компании в момент размещения заявки, то сроки комплектации и доставки заказа обсуждается по телефону с менеджером магазина.</p>
+<p>3. Срок доставки заказов при оплате по безналичному расчету ведется с момента поступления ваших денег на расчетный счет магазина.</p>
+<p>4. Доставка в регионы может занять время большее, в зависимости от его удаления и режима работы транспортной компании (подробности по телефону).</p>
+<p>Доставка товара со всеми необходимыми документами осуществляется только до подъезда/дома/гаража Покупателя. Покупатель подтверждает своей подписью в «Накладной», что не имеет претензий к внешнему виду и комплектности товара. После приемки товара Покупателем, компания вправе отклонить претензии по внешнему виду и комплектации товара.</p>
+<p>Разгрузка товара с машины осуществляется Покупателем или за счет Покупателя </p>
+<h2>Претензии и возврат товара ненадлежащего качества</h2>
+<p>Под товаром ненадлежащего качества подразумевается товар, который не может обеспечить функциональных свойств и качеств, имеет производственные дефекты и неисправности.</p>
+<p>Принимая заказ из рук курьера вы расписываетесь в квитанции, в графе «Заказ получил. Претензий к комплектности заказа и внешнему виду товара не имею», тем самым подтверждая приемку товара.</p>
+<p>После этого мы не примем претензии по внешнему виду товара или комплектности заказа.</p>
+<p>Мы прикладываем все усилия, чтобы не допустить доставки товара с производственными дефектами. Однако не все дефекты можно обнаружить при комплектации заказов.</p>
+<p>Если все же обнаружился заводской брак, не переживайте, мы обменяем вам товар на исправный или вернем его полную стоимость, включая стоимость доставки.</p>
+<h2>Другое</h2>
+<p>Если у Вас возникли вопросы, ответы на которые не нашли на нашем сайте, то звоните по телефону: 8 (4922) 37-35-61. Наши менеджеры по продажам ответят на любые вопросы и дадут исчерпывающую консультацию (например, помогут <a href="#">выбрать камин Мета</a> для дачи или <a href="#">печь Везувий</a> для бани).</p>
+</div>
+</div>
+
+
+</div>
+</div>
+<div class="content_bottom">
+<div class="container">
+<div class="box blog_articles">
+<div class="box-content">
+<div class="row">
+<div class="col-sm-3">
+<figure class="article-image">
+<img src="akcia_1.jpg" alt="Живете во Владимире?">
+</figure>
+<div class="article-title">
+<a href="#">Живете во Владимире?</a>
+</div>
+<div class="article-description">Создай свой купон на скидку</div>
+</div>
+<div class="col-sm-3">
+<figure class="article-image">
+<img src="akcia_2.png" alt="Скидка на печи «Везувий»">
+</figure>
+<div class="article-title">
+<a href="#">Скидка на печи «Везувий»</a>
+</div>
+<div class="article-description">До 29 февраля скидка 10%</div>
+</div>
+<div class="col-sm-3">
+<figure class="article-image">
+<img src="akcia_3.jpg" alt="Скидка 3%">
+</figure>
+<div class="article-title">
+<a href="#">Скидка при заказе с сайта</a>
+</div>
+<div class="article-description">Закажите любую печь через корзину сайта и получите приятную скидку.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+<div class="footer_box">
+<h5>О продукции</h5>
+<ul class="list-unstyled">
+<li><a href="#">Печи</a></li>
+<li><a href="#">Камины</a></li>
+<li><a href="#">Прочее</a></li>
+<li><a href="#">Распродажа</a></li>
+<li><a href="#">Доставка</a></li>
+<li><a href="#">Розница</a></li>
+<li><a href="#">Опт</a></li>
+</ul>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+<div class="footer_box">
+<h5>О компании</h5>
+<ul class="list-unstyled">
+<li><a href="#">Вакансии</a></li>
+<li><a href="#">Обратная связь</a></li>
+<li><a href="#">Свидетельства</a></li>
+<li><a href="#">Как покупать?</a></li>
+<li><a href="#">Возврат</a></li>
+<li><a href="#">Оплата</a></li>
+</ul>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+<div class="footer_box contact-block">
+<h5>Контакты</h5>
+<ul class="list-unstyled">
+<li><i class="material-icons">place</i><p>Владимир, Куйбышева 3А</p></li>
+<li><i class="material-icons">phone</i><span style="display:inline-block;">8 (4922) 37-35-61,<br>8 (901) 992-35-61,<br>8 (919) 026-30-29,<br>8 (915) 762-76-22.</span></li>
+<li><i class="material-icons">drafts</i><a href="mailto:sv@saynavlad.ru">sv@saynavlad.ru</a></li>
+</ul>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+<div class="footer_box">
+<ul class="social-list list-unstyled">
+<li>
+<a href="#">
+<i class="fa fa-facebook" data-toggle="tooltip" title="" data-original-title="Facebook"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fa fa-twitter" data-toggle="tooltip" title="" data-original-title="Twitter"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fa fa-google-plus" data-toggle="tooltip" title="" data-original-title="Google Plus"></i>
+</a>
+</li>
+<li>
+<a href="#">
+<i class="fa fa-youtube" data-toggle="tooltip" title="" data-original-title="Youtube"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="copyright">
+<div class="container">
+«СаунаВлад» © 2016
+</div>
+</div>
+</footer>
+<script src="livesearch.min.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script><script src="jquery.easing.1.3.js"></script><script src="jquery.ui.totop.js"></script><script src="jquery.rd-navbar.min.js"></script><script src="jquery.unveil.min.js"></script><script src="jquery.fancybox.js"></script><script src="superfish.min.js"></script><script src="jquery.gsap.min.js"></script><script src="TimelineMax.min.js"></script><script src="TweenMax.min.js"></script><script src="jquery.scrollmagic.min.js"></script><script src="jquery.selectbox-0.2.min.js"></script>
+</div>
+</div>
+</body>
+</html>

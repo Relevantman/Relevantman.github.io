@@ -1,0 +1,74 @@
+
+.box.newsletter {
+	margin-bottom:0;
+}
+
+.newsletter .box-content {
+	color:#fff;
+	background: #00bbd3;
+	padding: 5px 20px; 
+	}
+.newsletter p {
+	font-size:20px;
+	line-height:24px;
+	float:left;
+	text-transform:uppercase;
+	font-weight:500;
+	width:146px;
+	display:inline-block;
+	margin:12px 5px 0 0;
+}
+.newsletter form {
+	width:799px;
+	display:inline-block;
+	float:left;
+}
+.newsletter  .tm-login-form {
+	width:699px;
+	float:left;
+	line-height:0;
+}
+.control-label {
+	margin-bottom:0;
+	vertical-align:top;
+}
+.newsletter form input[type="text"]{
+	height:50px;
+	color:#888;
+	font-size:12px;
+	background:#fff;
+	border:none;
+	line-height:16px;
+	padding:17px 10px 17px 20px;
+}
+.newsletter .dropdown-btn {
+	color:#fff; 
+	display:inline-block;
+	float:left;
+	margin:10px 0 0 20px;
+	font-size:24px;
+	line-height:29px;
+	vertical-align:top;
+	}
+.newsletter .dropdown-btn:hover {
+		color:#333;
+	}
+
+.newsletter-error, .newsletter-success {
+	display: block;
+	width:100%;
+	float:left;
+	text-align:left;
+	font-size: 16px;
+	line-height: 24px;
+	transition: .3s all ease; 
+	color:#fff !important;
+	}
+
+.newsletter-error {
+	color: #f34235; 
+	}
+
+.newsletter-success {
+	color: #4bae4f;
+	}
